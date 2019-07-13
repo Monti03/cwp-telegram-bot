@@ -13,7 +13,7 @@ def start(update, context):
 
 def help(update, context):
     print("help")
-    update.send_message(context.message.chat_id, "No one can help you")
+    update.send_message(context.message.chat_id, "you can find here https://github.com/Monti03/cwp-telegram-bot/blob/master/README.md#commands the commands")
 
 
 def url(update, context):
