@@ -79,7 +79,9 @@ def list_all(update, context):
 def error(update, context):
     pass
 
-updater = Updater("YOUR_TOKEN")
+f = open("token.txt", "r")
+TELEGRAM_TOKEN = f.readline()
+updater = Updater(TELEGRAM_TOKEN)
 
 def main():
 
